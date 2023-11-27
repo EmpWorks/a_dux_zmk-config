@@ -17,3 +17,8 @@ config ZMK_SPLIT
 	default y
 
 endif
+# Enable MPU
+CONFIG_ARM_MPU=y
+
+# enable GPIO
+CONFIG_GPIO=y
